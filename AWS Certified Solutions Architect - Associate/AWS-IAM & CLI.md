@@ -122,4 +122,4 @@ s3.put_object(
     Body='Hello from EC2!'
 )
 ```
-
+If you run this Python script on EC2, AWS will automatically use the temporary credentials associated with that Role.
